@@ -1,24 +1,24 @@
 # Overview 
-> 본 프로젝트는 IBM HCIS팀의 정보공유 사이트인 [ibm-hcis](http://ibm-hcis.github.io/)의 글 관리를 위해 운영됩니다.   
+> 본 프로젝트는 IBM CloudPak관련 정보 공유 사이트인 [ibm cloudpak](http://ibmcp.github.io/)의 글 관리를 위해 운영됩니다.   
 
 ## How to write
 node.js의 vuepress라는 모듈을 이용하여 글을 등록합니다.  
 아래와 같은 순서로 글이 publishing됩니다.  
-- [git clone](https://github.com/ibm-hcis/ibm-hcis.github.io#step01--clone)  
-- [글 작성/수정](https://github.com/ibm-hcis/ibm-hcis.github.io#step02--writemodify)  
-- [Commit, Pulling, Merge and Push](https://github.com/ibm-hcis/ibm-hcis.github.io#step03--commit-pulling-merge-and-push)
-- [HTML생성](https://github.com/ibm-hcis/ibm-hcis.github.io/actions)  
+- [git clone](https://github.com/ibmcp/ibmcp.github.io#step01--clone)  
+- [글 작성/수정](https://github.com/ibmcp/ibmcp.github.io#step02--writemodify)  
+- [Commit, Pulling, Merge and Push](https://github.com/ibmcp/ibmcp.github.io#step03--commit-pulling-merge-and-push)
+- [HTML생성](https://github.com/ibmcp/ibmcp.github.io/actions)  
   미리 작성된 git action이 자동 수행됨   
   - vuepress가 소스를 읽어 html들 생성  
   - 생성된 html들을 master branch로 overwrite  
-- [Confirm changes](https://github.com/ibm-hcis/ibm-hcis.github.io#step04--confirm-changes)
+- [Confirm changes](https://github.com/ibmcp/ibmcp.github.io#step04--confirm-changes)
 
 ---
 
 ### Step01 : Clone
 1. clone this repository with branch 'dev'
    ```sh
-   git clone -o origin https://github.com/ibm-hcis/ibm-hcis.github.io.git
+   git clone -o origin https://github.com/ibmcp/ibmcp.github.io.git
    cd ibm-hcis.github.io
    ```
 

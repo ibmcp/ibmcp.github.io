@@ -2,7 +2,7 @@
 home: true
 heroImage: /assets/img/logo2/facebook_cover_photo_1.png
 heroText: Hybrid & Multi Cloud world
-tagline: Setup, Containerize, Manage Cloud platform !
+tagline: IBM Cloudpak for applications, data, security and more
 actionText: Get Started →
 actionLink: /cloudaz/setup/
 features:
